@@ -95,7 +95,8 @@ main {
     top: 0;
     padding-top: 0;
 }
-.form__input textarea:focus + label {
+.form__input textarea:focus + label,
+.form__input textarea:valid + label {
     top: -16px;
     font-size: 0.7rem;
     font-weight: 700;
